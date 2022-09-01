@@ -10,7 +10,8 @@ body{
 /*padding: 3% 15%;*/}
 
 #ayah{
-  margin-top: 82px;}
+  margin-top: 82px;
+}
 
 .links{
   padding: 15px;}
@@ -93,7 +94,8 @@ p{
 
 .ayah{
   grid-column:2/4;
-  padding-top: 23px;
+  padding-top: 72px;
+  padding-right: 63px;
   padding-bottom: 23px;}
 
 .NabawiM{

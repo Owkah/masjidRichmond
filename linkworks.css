@@ -1,0 +1,30 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body{
+font-family: Helvetica, Arial, sans-serif;
+margin: 22px 25px 0 33px;
+padding: 23px;}
+
+.navbar{
+  padding-left: 13px;
+  font-size: 1.0em !important;
+  color: #000 !important;}
+
+#footer{
+  dislay:grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.pageContent{
+  margin:18px;}
+
+  .address{
+    padding-top: 52px;
+    text-align: center;
+  }

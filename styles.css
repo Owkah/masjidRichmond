@@ -115,10 +115,13 @@ p{
   .IslamicCode{
   text-align: justify;
    margin-left: 113px;
-   margin-bottom: 13px;}
+   margin-bottom: 13px;
+padding-left: 13px;}
 
   .AboutIslam{
-    text-align: center;}
+    text-align: center;
+padding-left: 13px;
+padding-right:13px;}
 
 .AboutIslam{
   grid-column: 2/3;

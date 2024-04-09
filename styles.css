@@ -61,9 +61,8 @@ body{
 }
 
 #eid{
-  margin: auto;
-  width:50%;
-  padding: 10px;  
+  margin-left: 25px;
+  margin-top: 18px;
 }
 
 p{

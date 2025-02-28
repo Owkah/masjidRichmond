@@ -27,13 +27,15 @@ body{
 .title-image1{
   width: 100%;
   margin-top: 13px;
-  margin-left:15px;}
+  margin-left:15px;
+  border-radius: 15%;}
 
 .title-image2{
   width: 100%;
   margin-top: 21px;
   margin-right:75px;
-  padding-left: 13px;}
+  padding-left: 13px;
+  border-radius: 15%;}
 
 .col-lg-6{
   display: inline-block;

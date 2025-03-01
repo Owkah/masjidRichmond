@@ -8,6 +8,14 @@ body{
   font-weight: 300;
   font-family: Helvetica, Arial, sans-serif;}
 
+.custom-container {
+  margin-left: 10px;  /* Adjust the value as needed */
+  margin-right: 10px;  /* Adjust the value as needed */
+  padding-left: 10px;  /* Optional: Add padding if needed */
+  padding-right: 10px;  /* Optional: Add padding if needed */
+}
+
+
 .navbar{
     padding-left: 1rem;
     padding-bottom: 3rem;}

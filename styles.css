@@ -1,84 +1,130 @@
+/* Reset & Base */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;}
-
-body{
-  font-size: 1.2rem;
-  font-weight: 300;
-  font-family: Helvetica, Arial, sans-serif;}
-
-.custom-container {
-  margin-left: 10px;  /* Adjust the value as needed */
-  margin-right: 10px;  /* Adjust the value as needed */
-  padding-left: 10px;  /* Optional: Add padding if needed */
-  padding-right: 10px;  /* Optional: Add padding if needed */
+  box-sizing: border-box;
 }
 
-
-.navbar{
-    padding-left: 1rem;
-    padding-bottom: 3rem;}
-
-.navbar-nav a{
-    text-decoration: none;
-    margin: 12px;
-    padding: 12px;
-    color: #000;}
-
-#surah {
-  display: inline-block;
-  margin-top:38px;
-  padding-right: 13px;
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #212121;
+  line-height: 1.6;
 }
 
-.title-image1{
-  width: 100%;
-  margin-top: 13px;
-  margin-left:15px;
-  border-radius: 15%;}
+.img-fluid {
+  border-radius: 15%;
+}
 
-.title-image2{
-  width: 100%;
-  margin-top: 21px;
-  margin-right:75px;
-  padding-left: 13px;
-  border-radius: 15%;}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
 
-.col-lg-6{
-  display: inline-block;
-  font-size: 3rem;}
-
-.educate a{
+a {
+  color: #065fd4;
   text-decoration: none;
-  color: #000;}
-
-.educate li{
-  list-style-type: none;}
-
-.links h5{
-  display: inline-block;
-  background-color: #DFDFDE;}
-
-.links{
-  Margin-left: 25px;
-  margin-top: 18px;
+  transition: color 0.2s ease;
 }
 
-#salah{
-  margin-left: 25px;
-  margin-top: 18px;
+a:hover {
+  color: #ff0000; /* YouTube red */
+  text-decoration: underline;
 }
 
-#eid{
-  margin-left: 25px;
-  margin-top: 18px;
+/* Navbar */
+.navbar {
+  padding: 0.75rem 1rem;
 }
 
-p{
-   display: block;
-   margin-block-start: 1em;
-   margin-block-end: 1em;
-   margin-inline-start: 0px;
-   margin-inline-end: 0px;
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ff0000 !important; /* YouTube red */
 }
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* Hero Section */
+.hero-section h2 {
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.arabic-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  direction: rtl;
+  text-align: center;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card h5 {
+  color: #212121;
+  margin-bottom: 0.75rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Buttons */
+.btn-outline-danger {
+  border-radius: 20px;
+  font-weight: 600;
+  border-color: #ff0000;
+  color: #ff0000;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.btn-outline-primary {
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* Footer (if added later) */
+footer {
+  background: #fff;
+  border-top: 1px solid #e5e5e5;
+  padding: 2rem 0;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #ff0000;
+}
+
+.footer {
+  background-color: #0a0a0a;  /* Rich black */
+  color: #ffffff;             /* White text */
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
